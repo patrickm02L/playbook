@@ -2,15 +2,15 @@
 @import "neat/neat";
 
 // Colors
-$atlantic_blue:       #323A45; // gray-dark
-$pacific_blue:        #046B99; // primary-alt-darkest
-$miami_vice_blue:     $pacific_blue; // original
+$charles_blue:        #091F2F; // gray-dark
+$freedom_trail_red:   #FB4D42; // primary-alt-darkest
+$miami_vice_blue:     $freedom_trail_red; // original
 $white:               #fff;
 $black:               #323A45; // gray-dark
 
 // Fonts
-$serif:               'Merriweather', Georgia, serif;
-$sans-serif:          'Source Sans Pro', sans-serif;
+$serif:               'Lora', Georgia, serif;
+$sans-serif:          'Montserrat', Arial, sans-serif;
 
 // Mobile Breakpoints
 $mobile: new-breakpoint(min-width 0px max-width 640px 4);
@@ -25,7 +25,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   body#techfar_landing_page {
-    background: $atlantic_blue;
+    background: $charles_blue;
   }
 
   a {
@@ -97,7 +97,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     font-size: 17px;
     font-weight: 700;
     line-height: 1.5em;
-    color: $pacific_blue;
+    color: $freedom_trail_red;
     margin-bottom: 0;
   }
 
@@ -160,7 +160,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     a:hover {
       background: $white;
-      color: $atlantic_blue;
+      color: $charles_blue;
       text-decoration: none;
     }
     @include media($mobile) {
@@ -181,7 +181,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
 
   #introduction {
-    background: $atlantic_blue;
+    background: $charles_blue;
     color: $white;
     padding-bottom: 60px;
 
@@ -191,7 +191,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     a:hover {
       background: $white;
-      color: $atlantic_blue;
+      color: $charles_blue;
     }
 
     #usds_logo {
@@ -243,7 +243,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     position: fixed;
     width: 100%;
     height: 0;
-    background: $atlantic_blue;
+    background: $charles_blue;
     color: $white;
     .outer_container {
       padding: 0 40px;
@@ -271,7 +271,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
 
     .active {
       a {
-        background: $pacific_blue;
+        background: $freedom_trail_red;
         color: $white;
         text-decoration: none;
       }
@@ -358,7 +358,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
   }
 
   #plays_index {
-    background: $pacific_blue;
+    background: $freedom_trail_red;
     padding-bottom: 60px;
     color: $white;
 
@@ -451,7 +451,7 @@ $slimmer: new-breakpoint(min-width 641px max-width 980px 12);
     }
     h3 {
       // margin-top: 0px;
-      color: $atlantic_blue;
+      color: $charles_blue;
     }
 
     h2 {
