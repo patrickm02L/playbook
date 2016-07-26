@@ -1,6 +1,6 @@
 permalink: pretty
 highlighter: rouge
-url: https://monum.github.io
+baseurl: https://monum.github.io
 
 collections:
   - plays
