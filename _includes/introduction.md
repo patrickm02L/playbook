@@ -1,8 +1,6 @@
 # BOSTON SMART CITY PLAYBOOK
 
-The age of the "Smart City" is upon us!
-
-It's just that, we don't really know what that means. Or, at least, not yet.
+The age of the "Smart City" is upon us! It's just that, we don't really know what that means. Or, at least, not yet.
 
 So far, every "Smart City" pilot project that we've undertaken here in Boston has ended with a glossy presentation, and a collective shrug. Nobody's really known what to do next, or how the technology might lead to new or improved services. 
 
